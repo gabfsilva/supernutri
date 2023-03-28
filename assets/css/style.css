@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0018f2;
+}
+
+.container {
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(to bottom, #f9cec1, #ec8371);
+}
+
+#logo img{
+    margin-left: 800px;
+    width: 250px;
+    display: inline;
+}
+
+#cadastro {
+    width: 350px;
+    border-radius: 10px;
+    background: #ff715b;
+    margin-left: 750px;
+}
+
+#cadastro h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cadastro label {
+    display: block;
+    padding: 10px 0px 5px 5px;
+    margin-left: 10px
+}
+
+#cadastro input{
+    margin-left: 15px;
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 5px;
+    border: none;
+    box-shadow: 0px 1.5px 5px #000000a4;
+}
+
+#cadastro button {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 75px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 10px #000000a4;
+}
+
+#cadastro p {
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+}
+
+#cadastro a {
+    text-decoration: none;
+}
+
+#conectar {
+    width: 350px;
+    border-radius: 10px;
+    background: #ff715b;
+    margin-left: 750px;
+}
+
+#conectar h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+#conectar label {
+    display: block;
+    padding: 5px;
+    margin-left: 10px
+}
+
+#conectar input{
+    margin-left: 15px;
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 5px;
+    border: none;
+    box-shadow: 0px 1.5px 5px #000000a4;
+}
+
+#conectar button {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 70px;
+    padding: 9px;
+    width: 200px;
+    box-shadow: 2px 2px 10px #000000a4;
+    font-size: 1em;
+}
+
+ #texto-formas-login {
+    margin-left: 110px;
+    font-size: 1.2em;
+}
+
+#conectar a {
+    text-decoration: none;
+}
+
+.linha-botao {
+    border-top: 2px solid #000;
+    margin-top: 10px;
+    width: 310px;
+    margin-left: 15px;
+}
+
+.login-google-facebook {
+    width: 350px;
+    height: 70px;
+}
+
+#login-google {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 5px;
+    float: left;
+    box-shadow: 2px 2px 10px #000000a4;
+}
+
+#login-facebook {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 115px;
+    margin-top: 5px;
+    float: right;
+    box-shadow: 2px 2px 10px #000000a4;
+}
+
+#login-google img {
+    width: 37px;
+    margin: 5px;
+}
+
+#login-facebook img {
+    width: 40px;
+    margin: 5px;
+}
+
+#esqueci-senha a{
+    margin-left: 95px;
+    font-size: 1.2em;
+}
+
+#retorno-cadastro {
+    margin-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
