@@ -1,46 +1,63 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
     color: #0018f2;
+    text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
+/* Corpo do site */
 .container {
     width: 1920px;
-    height: 1080px;
-    background: linear-gradient(to bottom, #f9cec1, #ec8371);
+    height: 937px;
+    background: url(../images/background-cadastro.png), linear-gradient(to bottom, #f9cec1, #ec8371);
 }
 
+/* Imagem do Supernutri */
 #logo img{
     margin-left: 800px;
     width: 250px;
     display: inline;
 }
 
-#cadastro {
+/* Caixa que contem os elementos de cadastro */
+#cadastro-box {
     width: 350px;
     border-radius: 10px;
     background: #ff715b;
     margin-left: 750px;
 }
 
-#cadastro h1 {
+#cadastro-box h1 {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.5em;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-#cadastro label {
+#cadastro-box label {
     display: block;
     padding: 10px 0px 5px 5px;
     margin-left: 10px
 }
 
-#cadastro input{
+#cadastro-box input{
     margin-left: 15px;
     width: 300px;
     padding: 6px;
@@ -49,7 +66,7 @@ a {
     box-shadow: 0px 1.5px 5px #000000a4;
 }
 
-#cadastro button {
+#cadastro-box button {
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -62,37 +79,37 @@ a {
     box-shadow: 2px 2px 10px #000000a4;
 }
 
-#cadastro p {
-    padding-left: 50px;
+/* Texto que redireciona para a tela de login */
+#cadastro-box p {
+    padding-left: 40px;
     padding-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
+/* --------------------------------------------------------- */
 
-#cadastro a {
-    text-decoration: none;
-}
-
-#conectar {
+/* Caixa que contém os elementos da tela de login */
+#conectar-box {
     width: 350px;
     border-radius: 10px;
     background: #ff715b;
     margin-left: 750px;
 }
 
-#conectar h1 {
+#conectar-box h1 {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.5em;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
-#conectar label {
+#conectar-box label {
     display: block;
     padding: 5px;
     margin-left: 10px
 }
 
-#conectar input{
+#conectar-box input{
     margin-left: 15px;
     width: 300px;
     padding: 6px;
@@ -101,13 +118,13 @@ a {
     box-shadow: 0px 1.5px 5px #000000a4;
 }
 
-#conectar button {
+#conectar-box button {
     display: block;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
     border: none;
-    margin-left: 70px;
+    margin-left: 80px;
     padding: 9px;
     width: 200px;
     box-shadow: 2px 2px 10px #000000a4;
@@ -116,13 +133,10 @@ a {
 
  #texto-formas-login {
     margin-left: 110px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
-#conectar a {
-    text-decoration: none;
-}
-
+/* Linha preta ilustrativa */
 .linha-botao {
     border-top: 2px solid #000;
     margin-top: 10px;
@@ -130,6 +144,7 @@ a {
     margin-left: 15px;
 }
 
+/* Div que contém os botões de login pelo google e facebook */
 .login-google-facebook {
     width: 350px;
     height: 70px;
@@ -169,12 +184,207 @@ a {
 
 #esqueci-senha a{
     margin-left: 95px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #retorno-cadastro {
-    margin-left: 45px;
+    margin-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 1em;
+}
+
+/* --------------------------------------------------------- */
+/* Conteúdo da página "esqueci minha senha" */
+#esqueci-senha-box {
+    width: 350px;
+    border-radius: 10px;
+    background: #ff715b;
+    margin-left: 750px;
+}
+
+#esqueci-senha-box h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#esqueci-senha-box label {
+    display: block;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#esqueci-senha-box input{
+    margin-left: 15px;
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 25px;
+    border: none;
+    box-shadow: 0px 1.5px 5px #000000a4;
+}
+
+#esqueci-senha-box button {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 80px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 2px 2px 10px #000000a4;
+    font-size: 1em;
+    text-align: center;
+}
+
+#texto-esqueci-senha {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#esqueci-senha-cancelar {
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+/* --------------------------------------------------------- */
+/* Página de "Veja seus pequenos" */
+#header-veja-seus-pequenos {
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    background: linear-gradient(to top, #e47b6a, #E86652);
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+#header-veja-seus-pequenos h2 {
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+#criancas-cadastradas {
+    border: 1px solid #FF715B;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #FF715B;
+}
+
+.slots-criancas {
+    width: 370px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: #F8CDC0;
+    box-shadow: 0px 4px 3px rgba(37, 37, 37, 0.5);
+}
+
+.avatar-perfil img {
+    float: left;
+    width: 70px;
+    background: #E86652;
+    border-radius: 35px;
+    width: 70px;
+    margin-top: 13px;
+    margin-left: 8px;
+    box-shadow: 0px 4px 3px rgba(37, 37, 37, 0.5);
+}
+
+.nome-crianca h3 {
+    margin-top: 10px;
+    text-align: center;
     font-size: 1.2em;
+    display: inline;
+    text-shadow: 0px 3px 3.5px rgba(37, 37, 37, 0.5);
+}
+
+  
+.nome-crianca h3, .icones-monitorar-crianca {
+    float: right;
+    width: 70%;
+}
+
+.icones-monitorar-crianca {
+    margin-top: 15px;
+}
+
+.icone-jogos-crianca img {
+    padding: 2px 25px 2px 25px;
+    margin-left: 40px;
+    background: #E86652;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 2px 8px 3px rgba(37, 37, 37, 0.3);
+}
+
+.icone-graficos-crianca img {
+    padding: 2px 25px 2px 25px;
+    margin-right: 30px;
+    background: #E86652;
+    border-radius: 10px;
+    float: right;
+    box-shadow: 2px 8px 3px rgba(37, 37, 37, 0.3);
+}
+
+#avatar-perfil-adicionar {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background: #E86652;
+    border-radius: 35px;
+    margin-top: 13px;
+    margin-left: 150px;
+}
+
+#avatar-perfil-adicionar img {
+    width: 65px;
+    height: 59px;
+    margin: 2px;
+    margin-top: 5px;
+}
+
+#slots-criancas-bloq {
+    width: 370px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgba(248, 205, 192, 0.7);
+    box-shadow: 0px 4px 3px rgba(37, 37, 37, 0.5);
+}
+
+#slots-criancas-bloq2 {
+    width: 370px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgba(248, 205, 192, 0.5);
+    box-shadow: 0px 4px 3px rgba(37, 37, 37, 0.5);
+}
+
+#slots-criancas-bloq3 {
+    width: 370px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgba(248, 205, 192, 0.2);
+    box-shadow: 0px 4px 3px rgba(37, 37, 37, 0.5);
 }
