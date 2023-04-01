@@ -21,26 +21,34 @@ button {
     cursor: pointer;
 }
 
+button a {
+    display: block; /* torna o link um elemento block */
+    width: 100%; /* faz o link preencher todo o espaço disponível */
+    height: 100%; /* faz o link preencher todo o espaço disponível */
+    text-align: center; /* centraliza o texto vertical e horizontalmente */
+    text-decoration: none;
+    color: #000;
+}
+
 /* Corpo do site */
 .container {
-    width: 1920px;
-    height: 937px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
     background: url(../images/background-cadastro.png), linear-gradient(to bottom, #f9cec1, #ec8371);
 }
 
 /* Imagem do Supernutri */
 #logo img{
-    margin-left: 800px;
     width: 250px;
-    display: inline;
-}
+}   
 
 /* Caixa que contem os elementos de cadastro */
 #cadastro-box {
     width: 350px;
     border-radius: 10px;
     background: #ff715b;
-    margin-left: 750px;
 }
 
 #cadastro-box h1 {
@@ -51,13 +59,13 @@ button {
     padding-bottom: 30px;
 }
 
-#cadastro-box label {
+label {
     display: block;
     padding: 10px 0px 5px 5px;
     margin-left: 10px
 }
 
-#cadastro-box input{
+input {
     margin-left: 15px;
     width: 300px;
     padding: 6px;
@@ -66,7 +74,16 @@ button {
     box-shadow: 0px 1.5px 5px #000000a4;
 }
 
-#cadastro-box button {
+select {
+    margin-left: 15px;
+    width: 315px;
+    padding: 3px;
+    margin-bottom: 5px;
+    border: none;
+    box-shadow: 0px 1.5px 5px #000000a4;
+}
+
+button {
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -92,7 +109,6 @@ button {
     width: 350px;
     border-radius: 10px;
     background: #ff715b;
-    margin-left: 750px;
 }
 
 #conectar-box h1 {
@@ -200,7 +216,6 @@ button {
     width: 350px;
     border-radius: 10px;
     background: #ff715b;
-    margin-left: 750px;
 }
 
 #esqueci-senha-box h1 {
@@ -258,13 +273,12 @@ button {
 /* --------------------------------------------------------- */
 /* Página de "Veja seus pequenos" */
 #header-veja-seus-pequenos {
-    width: 500px;
-    height: 80px;
     margin: 0 auto;
     background: linear-gradient(to top, #e47b6a, #E86652);
     border-end-end-radius: 10px;
     border-bottom-left-radius: 10px;
     text-align: center;
+    padding: 30px;
 }
 
 #header-veja-seus-pequenos h2 {
@@ -273,9 +287,7 @@ button {
 }
 
 #criancas-cadastradas {
-    border: 1px solid #FF715B;
-    width: 450px;
-    margin: 0 auto;
+    width: 400px;
     margin-top: 20px;
     border-radius: 10px;
     background: #FF715B;
@@ -387,4 +399,143 @@ button {
     border-radius: 10px;
     background: rgba(248, 205, 192, 0.2);
     box-shadow: 0px 4px 3px rgba(37, 37, 37, 0.5);
+}
+/* --------------------------------------------------------- */
+/* Cadastro de perfis */
+#criancas-cadastro-box {
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #ff715b;
+    background-image: url(../images/2\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+}
+
+#criancas-cadastro-box p {
+    padding-left: 25px;
+    padding-bottom: 15px;
+    font-size: 1em;
+}
+
+.bananoide-cadastro {
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+}
+
+#header-veja-seus-pequenos a{
+    color: #000;
+    float: left;
+    display: inline;
+    margin-top: 30px;
+}
+
+/* --------------------------------------------------------- */
+/* Área das Crianças */
+#header-area-criancas {
+    margin: 0 auto;
+    background: url(../images/wave-haikei.png);
+    border-end-end-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+#header-area-criancas img {
+    float: left;
+    margin-left: -40px;
+}
+
+#header-area-criancas h2 {
+    text-align: start;
+}
+
+#area-criancas-box {
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #FF715B;
+    background-image: url(../images/wave-haikei\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    padding: 30px;
+}
+
+#area-criancas-box h2 {
+    font-size: 1.9em;
+    text-transform: uppercase;
+}
+
+#opcao-jogos {
+    background: url(../images/esquerda-jogos.png) no-repeat left top;
+    padding: 13px;
+    margin: 0;
+    width: 100%;
+    background-color: #F8CDC0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 1em;
+}
+
+#opcao-customizar {
+    background: url(../images/customizar.png) no-repeat left top;
+    padding: 13px;
+    margin: 0;
+    width: 100%;
+    background-color: #F8CDC0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 1em;
+}
+
+#opcao-quiz {
+    background: url(../images/quiz.png) no-repeat left top;
+    padding: 13px;
+    margin: 0;
+    width: 100%;
+    background-color: #F8CDC0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 1em;
+}
+
+#opcao-nutrinhos {
+    background: url(../images/nutrinhos.png);
+    padding: 13px;
+    margin: 0;
+    width: 100%;
+    background-color: #F8CDC0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 1em;
+}
+/* Star-bar */
+#star-bar {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#star-bar img {
+    float: left;
+}
+
+#barra-progresso {
+    background: #D9D9D9;
+    width: 80%;
+    float: right;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 13px;
+}
+
+#star-bar p{
+    clear: both;
+    width: 70%;
+    margin-left: 80px;
+    font-size: 1em;
+    font-weight: bold;
 }
