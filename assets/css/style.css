@@ -39,6 +39,14 @@ button a {
     background: url(../images/background-cadastro.png), linear-gradient(to bottom, #f9cec1, #ec8371);
 }
 
+.container-big {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    background: url(../images/background-cadastro.png), linear-gradient(to bottom, #f9cec1, #ec8371);
+}
+
 /* Imagem do Supernutri */
 #logo img{
     width: 250px;
@@ -273,17 +281,22 @@ button {
 /* --------------------------------------------------------- */
 /* Página de "Veja seus pequenos" */
 #header-veja-seus-pequenos {
-    margin: 0 auto;
     background: linear-gradient(to top, #e47b6a, #E86652);
-    border-end-end-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     text-align: center;
-    padding: 30px;
 }
 
 #header-veja-seus-pequenos h2 {
-    padding-top: 30px;
     text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #criancas-cadastradas {
@@ -429,7 +442,6 @@ button {
     color: #000;
     float: left;
     display: inline;
-    margin-top: 30px;
 }
 
 /* --------------------------------------------------------- */
