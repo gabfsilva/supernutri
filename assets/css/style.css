@@ -29,7 +29,9 @@ button a {
     text-decoration: none;
     color: #000;
 }
-
+body, html {
+    height: 100%;
+}
 /* Corpo do site */
 .container {
     display: flex;
