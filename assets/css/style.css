@@ -762,3 +762,11 @@ button {
     width: 75px;
     margin: 5px;
 }
+
+.ingrediente{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #ff715b;
+}
