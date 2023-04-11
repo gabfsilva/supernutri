@@ -770,3 +770,7 @@ button {
     border-radius: 10px;
     background-color: #ff715b;
 }
+
+#prato {
+    position: relative;
+}
