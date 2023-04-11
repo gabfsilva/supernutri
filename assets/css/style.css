@@ -771,6 +771,16 @@ button {
     background-color: #ff715b;
 }
 
+.ingrediente-chuva{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.1s linear;
+}
+
 #prato {
     position: relative;
 }

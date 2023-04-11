@@ -51,8 +51,6 @@ function gerarComidas(element) {
                 "<img id='prato-img' width='350px' height='350px'  src='../assets/images/prato.png' alt=''>"+
             "</div>";
 
-            let pratoImg = document.getElementById('prato-img');
-
             for (let i = 0; i < comidasEscolhidas.length; i++) {
                 const imagemPequena = document.createElement('img');
                 imagemPequena.src = '../assets/images/' + comidasEscolhidas[i];
@@ -80,7 +78,6 @@ function gerarComidas(element) {
 
         }
     } 
-    console.log(comidasEscolhidas)
 }
 
 gerarComidas()  
