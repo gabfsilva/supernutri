@@ -37,6 +37,17 @@ button a {
     height: 100vh;
     align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    background: url(../images/background-cadastro.png), linear-gradient(to bottom, #f9cec1, #ec8371);
+}
+
+.container-big {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+>>>>>>> dev
     background: url(../images/background-cadastro.png), linear-gradient(to bottom, #f9cec1, #ec8371);
 }
 
@@ -327,10 +338,14 @@ button {
 
 #criancas-cadastradas {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 400px;
 =======
     width: 98%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    width: 400px;
+>>>>>>> dev
     margin-top: 20px;
     border-radius: 10px;
     background: #FF715B;
@@ -612,6 +627,9 @@ button {
     box-shadow: 0px 4px 3px rgba(37, 37, 37, 0.5);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dev
 /* --------------------------------------------------------- */
 /* Cadastro de perfis */
 #criancas-cadastro-box {
@@ -784,8 +802,11 @@ button {
     background: #F8CDC0;
     box-shadow: 0px 4px 3px rgba(37, 37, 37, 0.5);
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+>>>>>>> dev
 
 .foto-nutrinho {
     float: left;
@@ -831,12 +852,17 @@ button {
     border-bottom-left-radius: 30px;
     text-align: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 100%;
     height: 100px;
 =======
     padding: 20px;
     width: 88%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    width: 100%;
+    height: 100px;
+>>>>>>> dev
     text-align: center;
 }
 
@@ -844,10 +870,14 @@ button {
     float: right;
     width: 100px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-right: -30px;
 =======
     margin-right: -20px;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    margin-right: -30px;
+>>>>>>> dev
 }
 
 #header-jogos h2 {
@@ -864,21 +894,30 @@ button {
 
 #jogos-box {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dev
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 95%;
+<<<<<<< HEAD
 =======
     width: 83%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+>>>>>>> dev
     margin-top: 20px;
     border-radius: 20px;
     background: #FF715B;
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     padding: 30px;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+>>>>>>> dev
 }
 
 #jogo1 {
@@ -886,11 +925,16 @@ button {
     padding: 13px;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 20px;
     width: 95%;
 =======
     width: 100%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    margin-top: 20px;
+    width: 95%;
+>>>>>>> dev
     height: 87px;
     background-color: #F8CDC0;
     border-radius: 10px;
@@ -904,10 +948,14 @@ button {
     padding: 13px;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 95%;
 =======
     width: 100%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    width: 95%;
+>>>>>>> dev
     height: 87px;
     background-color: #F8CDC0;
     border-radius: 10px;
@@ -921,10 +969,14 @@ button {
     padding: 13px;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 95%;
 =======
     width: 100%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    width: 95%;
+>>>>>>> dev
     height: 87px;
     background-color: #F8CDC0;
     border-radius: 10px;
@@ -937,10 +989,14 @@ button {
     background: url(../images/Monstro\ do\ fastfood.png) no-repeat center;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 95%;
 =======
     width: 100%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    width: 95%;
+>>>>>>> dev
     height: 87px;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -956,10 +1012,14 @@ button {
     background: url(../images/falta\ de\ nutrientes.png) no-repeat center;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 95%;
 =======
     width: 100%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    width: 95%;
+>>>>>>> dev
     height: 87px;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -975,10 +1035,14 @@ button {
     background: url(../images/doenças\ agravadas.png) no-repeat center;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 95%;
 =======
     width: 100%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    width: 95%;
+>>>>>>> dev
     height: 87px;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -994,10 +1058,14 @@ button {
     background: url(../images/printf.png) no-repeat center;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 95%;
 =======
     width: 100%;
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+    width: 95%;
+>>>>>>> dev
     height: 87px;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -1009,6 +1077,9 @@ button {
     margin: 5px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dev
 
 .ingrediente{
     margin-top: 10px;
@@ -1030,6 +1101,7 @@ button {
 
 #prato {
     position: relative;
+<<<<<<< HEAD
 }
 =======
 /* ------------------------------------------------------------------------------- */
@@ -1292,3 +1364,6 @@ button {
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
 >>>>>>> 60b8a258cb52d471869b54950bbf329d6b821ddf
+=======
+}
+>>>>>>> dev
