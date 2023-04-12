@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre seu Pequeno</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/32.png">
+    <link rel="apple-touch-icon" href="assets/images/180.png">
+    <meta name="description" content="Somos o SuperNutri, um aplicativo com o intuito de ajudar o seu pequeno a se alimentar melhor de uma forma lúdica e divertida, vem com o SuperNutri!">
+    <meta name="theme-color" content="#f7c4b6">
+</head>
+<body>
+    <div class="container">
+        <div id="header-veja-seus-pequenos">
+            <a href="area_responsavel.html"><i class="fa-solid fa-arrow-left fa-2xl"></i></a> <!-- Arrumar o tamanho e o posicionamento do botão -->
+            <h2 style="margin-left: 20px;">Cadastre seu <br> pequeno</h2>
+        </div>
+        <div id="criancas-cadastro-box">
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite o nome do seu pequeno"/>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" placeholder="Digite a idade do seu pequeno" />
+                <label for="peso">Peso:</label>
+                <input type="number" id="peso" step="any" placeholder="Informe o peso do seu pequeno" />
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura" step="any" placeholder="Informe a altura do seu pequeno (Ex.: 1.60)"/>
+                <label for="problema-saude">Seu pequeno tem alguma complicação de saúde?</label>
+                <select name="problema-saude" id="problema-saude">
+                    <option value="opcao1">Intolerância à Lactose</option>
+                    <option value="opcao2">Obesidade</option>
+                </select>
+              </form>
+              <div class="linha-botao"></div>
+              <button type="submit"><a href="area_responsavel.html">Cadastrar</a></button>
+              <a href=""><p>Por que pedimos estas informações?</p></a>
+              <img src="assets/images/bananoide.png" alt="bananoide" class="bananoide-cadastro">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e1314ff6bd.js" crossorigin="anonymous"></script>
+</body>
+</html>

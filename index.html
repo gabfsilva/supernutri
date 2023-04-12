@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="assets/images/32.png">
+    <link rel="apple-touch-icon" href="assets/images/180.png">
+    <meta name="description" content="Somos o SuperNutri, um aplicativo com o intuito de ajudar o seu pequeno a se alimentar melhor de uma forma lúdica e divertida, vem com o SuperNutri!">
+    <meta name="theme-color" content="#f7c4b6">
+  </head>
+  <body>
+    <div class="container">
+      <div id="logo">
+        <img
+          src="assets/images/Canva_Design__1_-removebg-preview.png"
+          alt="supernutri"
+        />
+      </div>
+      <!-- Inicio das formas de login -->
+      <div id="conectar-box">
+        <h1>Conecte-se</h1>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" />
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" />
+        <!-- Linha Ilustrativa -->
+        <div class="linha-botao"></div>
+        <!-- Fim da Linha -->
+        <button hr><a href="area_responsavel.html">Conectar</a></button>
+        <p id="texto-formas-login">Ou entre através</p>
+        <!-- Botões para logar com o google ou facebook -->
+        <div class="login-google-facebook">
+          <div id="login-google">
+            <a href=""><img src="assets/images/google-37.png" alt="login-gmail"/></a>
+          </div>
+          <div id="login-facebook">
+            <a href=""><img src="assets/images/facebook-logo-5-1.png" alt="login-gmail"/></a>
+          </div>
+        </div>
+        <!-- Fim dos botões -->
+        <p id="esqueci-senha"><a href="esqueci_senha.html">Esqueci minha senha</a></p>
+        <p id="retorno-cadastro">
+          Não possui uma conta?
+          <span><a href="cadastro.html">Cadastre-se</a></span>
+        </p>
+      </div>
+      <!-- Fim das formas de login -->
+    </div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js')
+            .then(registration => {
+              console.log('Service Worker registrado com sucesso:', registration.scope);
+            })
+            .catch(error => {
+              console.log('Falha ao registrar o Service Worker:', error);
+            });
+        });
+      }
+      </script>
+  </body>
+</html>
